@@ -1,0 +1,11 @@
+.truncate-7 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Limit to 1 line */
+    -webkit-box-orient: vertical;
+}
+
+/* Show full text on hover */
+.truncate-7:hover {
+    -webkit-line-clamp: unset; /* Reset the line clamp on hover */
+}
